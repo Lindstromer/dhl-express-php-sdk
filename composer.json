@@ -1,0 +1,21 @@
+{
+    "name": "adiyya/dhl-express-php-sdk",
+    "description": "DHL Express SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adiyya Tadikamalla",
+            "email": "adiyya@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "adiyya\\DHLExpress\\": "src/"
+        }
+    }
+}
